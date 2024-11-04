@@ -77,7 +77,7 @@ export default function Questions() {
                                     name={`question-${index}`}
                                     value={rating}
                                     checked={answers[index] === rating}
-                                    onChange={(e) => {
+                                    onChange={() => {
                                         setAnswers({
                                             ...answers,
                                             [index]: rating

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Questions from "./components/questions";
 export default function Home() {
   return (
